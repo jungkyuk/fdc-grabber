@@ -3,6 +3,10 @@ import requests
 import sys
 import os
 
+# SETUP API KEY HERE
+global FDC_API_KEY
+FDC_API_KEY = '<YOUR_API_KEY_HERE>'
+
 # Call the API
 # Sample API Call: https://api.nal.usda.gov/fdc/v1/food/######?api_key=DEMO_KEY'
 def GetFoodByID(fdcID):
@@ -19,11 +23,6 @@ def main():
       print('Usage: python3 foodcodes.py <FDCID>')
       exit(1)
    fdcID = sys.argv[1]
-   
-   # Get API Key
-   load_dotenv()
-   global FDC_API_KEY 
-   FDC_API_KEY = os.getenv("FDC_API_KEY")
    
    # Call FDC API
    GetFoodByID(fdcID)
