@@ -15,8 +15,8 @@ A simple script to get nutrient info from Food Data Central by FDC IDs
 Windows: `.venv/Scripts/activate`  
 Mac: `source .venv/bin/activate`
 
-5. Install requirements
-Run `pip install -r requirements.txt`
+5. Install requirements  
+`pip install -r requirements.txt`
 
 ## Usage
 Run with `python foodcodes.py <fdcID>`
