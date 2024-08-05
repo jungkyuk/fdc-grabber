@@ -2,9 +2,10 @@
 A simple script to get nutrient info from Food Data Central by FDC IDs
 
 ## Setup
-1. Clone the repo with `git clone https://github.com/jungkyuk/fdc-grabber.git`
+1. Clone the repo with  
+`git clone https://github.com/jungkyuk/fdc-grabber.git`
 
-2. Copy and paste your API key in foodcodes.py 
+2. Copy and paste your API key in foodcodes.py  
 `FDC_API_KEY = '<YOUR_API_KEY_HERE>'`
 
 3. Create a virtual environment:  
